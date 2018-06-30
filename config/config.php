@@ -13,6 +13,8 @@ class Configuration{
                 'app_secret' => '< your app secret >',
                 'default_graph_version' => 'v2.8'
     );
+    
+    public static $facebook_login_callback = "Your login callback url";
 
     private $base_dir;
     public function __construct()
